@@ -8,7 +8,7 @@ import java.util.Date;
  */
 @Entity
 @Table(name = "DBUSER")
-public class DBUser {
+public class DBUser implements java.io.Serializable {
 
     private int userId;
     private String username;
