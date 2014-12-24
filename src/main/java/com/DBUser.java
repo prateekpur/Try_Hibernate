@@ -3,9 +3,6 @@ package com;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by ppuri on 12/16/2014.
- */
 @Entity
 @Table(name = "DBUSER")
 public class DBUser implements java.io.Serializable {
